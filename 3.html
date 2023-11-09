@@ -1,6 +1,18 @@
 <!doctype html>
 <html>
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3ZP01SFXNW"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-3ZP01SFXNW');
+        </script>
+        <title>실습 - CSS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
         <title>실습 - JavaScript</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
@@ -35,6 +47,7 @@
                 target.backgroundColor = 'black';
                 target.color = 'white';
                 this.value = 'day';
+                
                 var alist = document.querySelectorAll('a');
                 var i = 0;
                 while ( i < alist.length ) {
@@ -45,6 +58,7 @@
                 target.backgroundColor = 'white';
                 target.color = 'black';
                 this.value = 'night';
+                
                 var alist = document.querySelectorAll('a');
                 var i = 0;
                 while ( i < alist.length ) {
